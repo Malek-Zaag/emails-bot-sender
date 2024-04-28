@@ -12,14 +12,12 @@ load_dotenv()
 # IN FILE LOCATION, ON WINDOWS, REPLACE \ WITH //
 sender_email = os.getenv("EMAIL")
 sender_password = os.getenv("PASSWORD")
-full_name = "Idriss Khaled"
-resume_location = "C://Users//idriss//Desktop//Resume//eng//idrissKhaled-resume.pdf"
-resume_filename = "idrissKhaled-resume.pdf"
-recommendation_letter_location = "C://Users//idriss//Desktop//Resume//eng//ElateUp recommendation letter.pdf"
-recommendation_letter_filename = "ElateUp recommendation letter.pdf"
-data_location = "C://Users//idriss//Desktop//contacts1.txt"
-body_template_with_person_name = "Hello {name},\n\nI am writing to express my enthusiastic interest in joining {company} as a software engineering intern.\n\nAllow me to introduce myself. I am Idriss Khaled, a Tunisian final-year software engineering student pursuing a Master's degree at INSAT and currently looking for a six-month end-of-studies internship starting from February 2024. Throughout my five-year journey in software engineering, I have acquired a comprehensive understanding of software development technologies and best practices. My academic journey has been complemented by active participation in significant projects spanning Data Science, Web development, and Cloud technologies.\n\nDuring my internships and part-time engagements at esteemed companies such as ElateUp and Elyadata, I have contributed to the development of robust and scalable solutions. I take pride in having received recognition for my expertise from both previous employers and co-workers.\n\nPlease find attached my resume along with a letter of recommendation from my most recent employer. I would really appreciate it if you take a look at them and see if my skills and experiences align with your goals.\n\nYours sincerely,\nIdriss Khaled"
-body_template_without_person_name = "Dear {company} recrutement team,\n\nI am writing to express my enthusiastic interest in joining {company} as a software engineering intern.\n\nAllow me to introduce myself. I am Idriss Khaled, a Tunisian final-year software engineering student pursuing a Master's degree at INSAT and currently looking for a six-month end-of-studies internship starting from February 2024. Throughout my five-year journey in software engineering, I have acquired a comprehensive understanding of software development technologies and best practices. My academic journey has been complemented by active participation in significant projects spanning Data Science, Web development, and Cloud technologies.\n\nDuring my internships and part-time engagements at esteemed companies such as ElateUp and Elyadata, I have contributed to the development of robust and scalable solutions. I take pride in having received recognition for my expertise from both previous employers and co-workers.\n\nPlease find attached my resume along with a letter of recommendation from my most recent employer. I would really appreciate it if you take a look at them and see if my skills and experiences align with your goals.\n\nYours sincerely,\nIdriss Khaled"
+full_name = "Malek Zaag"
+resume_location = "C:\\Users\\mk\\Desktop\\emails-bot-sender\\CV.pdf"
+resume_filename = "CV.pdf"
+data_location = "C:\\Users\\mk\\Desktop\\emails-bot-sender\\contact cdi.txt"
+body_template_with_person_name = "Hello {name},\n\nI am writing to express my enthusiastic interest in joining your company as a software engineering.\n\nAllow me to introduce myself. I am Malek ZAAG, a final year studies intern at Dassault Systemes, I am looking now for a future full time job as Cloud/DevOps Engineer in your company. I attached my resume in this email so you will be able to see if there are some open spots that align with my skills.\n\nYours sincerely,\nMalek ZAAG"
+body_template_without_person_name = "Dear {company} recrutement team,\n\nI am writing to express my enthusiastic interest in joining your company as a software engineering.\n\nAllow me to introduce myself. I am Malek ZAAG, a final year studies intern at Dassault Systemes, I am looking now for a future full time job as Cloud/DevOps Engineer in your company. I attached my resume in this email so you will be able to see if there are some open spots that align with my skills.\n\nYours sincerely,\nMalek ZAAG"
 
 
 def send_email(to_email, body):
@@ -27,7 +25,7 @@ def send_email(to_email, body):
     message = MIMEMultipart()
     message['From'] = full_name + " " + sender_email
     message['To'] = to_email
-    message['Subject'] = "Spontaneous Application - Software engineering intern"
+    message['Subject'] = "Spontaneous Application - Search for a full time opportunity"
 
     # Attach the body to the email
     message.attach(MIMEText(body, 'plain'))
@@ -40,10 +38,10 @@ def send_email(to_email, body):
         message.attach(resume_part)
 
     # Attach recommendation letter
-    with open(recommendation_letter_location, 'rb') as resume_file:
-        resume_part = MIMEApplication(resume_file.read(), Name=recommendation_letter_filename)
-        resume_part['Content-Disposition'] = f'attachment; filename="{recommendation_letter_filename}"'
-        message.attach(resume_part)
+    # with open(recommendation_letter_location, 'rb') as resume_file:
+    #     resume_part = MIMEApplication(resume_file.read(), Name=recommendation_letter_filename)
+    #     resume_part['Content-Disposition'] = f'attachment; filename="{recommendation_letter_filename}"'
+    #     message.attach(resume_part)
 
     # Connect to the SMTP server
     with smtplib.SMTP('smtp.gmail.com', 587) as server:
