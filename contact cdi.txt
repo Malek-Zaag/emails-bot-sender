@@ -1,12 +1,42 @@
-agathe.forest@easyfairs.com;easyfairs;agath 
-tiffany@loreal.com;l'oreal;tiffany
-mwilfred@kpmg.fr;kpmg;kpmg
-michael.garcia@loreal.com;l'oreal;michael
-patrick.houssin@groupecat.com;groupecat;patrick
-melanie.philippe@millenials.io;millenials;melanie
-flavie.guinet@rws.com;guinet;flavie
-begona@stockly.ai;stockly;begona
-charles.duke@orange.com;orange;charles
-sandrine.theveniaud@gitguardian.com;gitguardian;sandrine
-augustin.cloix@danone.com;danone;augustin
-myriam.poidevin@ostrum.com;myriam;ostrum
+aalto.mirja@disneylandparis.com;Disneylandparis;Mirja
+rysova.alexandra@disneylandparis.com;Disneylandparis;Alexandra
+pierrekaczmar@edgarpeople.com;Edgar People;Pierre
+ebectarte@clementine.jobs;Clémentine;Edouard
+rmimran@equativ.com;Equativ;Raphael
+eloanng@benefitcosmetics.com;Benefit Cosmetics;Eloann
+clementine.miramon@kornferry.com;Korn Ferry;Clémentine
+aandritiana@disneylandparis.com;Disneylandparis;ANDRE
+beatrice.grama@loreal.com;L'Oréal;Béatrice
+alexandre.bastide@loreal.com;L'Oréal;Alexandre
+marine.detivaud@danone.com;Danone;Marine
+carol.thomas@airliquide.com;Air Liquide;Carol
+zinaida.lessitchkova@loreal.com;L'Oréal;Zinaida
+eleonore.gragnic@airliquide.com;Air Liquide;Eléonore
+elisabeth.demoury@loreal.com;L'Oréal;Elisabeth
+arthur.regibier@loreal.com;L'Oréal;Arthur
+guillaume.pitoiset@loreal.com;L'Oréal;Guillaume
+jminnot@groupe-bel.com;Bel;Jean
+beychenne@airbus.com;Helicopters;Benjamin
+tkarar@carrebasset.com;CARRÉ BASSET;Taôss
+trezure.lardeur@partnerre.com;PartnerRe;Trezure Patrice
+d.martinache@malherbe.paris;Malherbe Paris;Diane
+e.bottereau@groupegeos.com;GEOS Group;Etienne
+gauthier.platon@disneycareers.com;The Walt Disney Company;Gauthier
+mbouquet@disneylandparis.com;Disneylandparis;Marlene
+msiberil@disneylandparis.com;Disneylandparis;Morgane
+christelle.andrianaivojaona@loreal.com;L'Oréal;Christelle
+niilesh.bhoite@loreal.com;L'Oréal;Niilesh
+clement.cortes@loreal.com;L'Oréal;Clément
+claire.yijia@loreal.com;L'Oréal;Claire
+isabelle.heberard@loreal.com;L'Oréal;Isabelle
+linda.bergeron@loreal.com;L'Oréal;Linda
+irina.kamiri@loreal.com;L'Oréal;Irina
+christelle.pasquini@loreal.com;L'Oréal;Christelle
+sylvie.dangelser@loreal.com;L'Oréal;Sylvie
+mathis.haccoun@loreal.com;L'Oréal;Mathis
+wenjing.yuan@loreal.com;L'Oréal;Wenjing
+julien@mondelezinternational.com;Mondelēz International;Julien
+valentine.beaucamp@danone.com;Danone;Valentine
+veronique@hutchinson.com;Hutchinson;Véronique
+martine.descoursiere@zodiacaerospace.com;Zodiac Aerospace;MARTINE
+celine.sousa@zodiacaerospace.com;Zodiac Aerospace;Céline
